@@ -6,9 +6,9 @@ from model_analysis import *
 random.seed(591)
 
 # read data
-fb = nx.read_edgelist("facebook_combined 2.txt")
-krt = nx.read_edgelist("karate.edgelist")
-phy = nx.read_edgelist("physicians.txt")
+fb = nx.read_edgelist("dataset/facebook_combined 2.txt")
+krt = nx.read_edgelist("dataset/karate.edgelist")
+phy = nx.read_edgelist("dataset/physicians.txt")
 
 walker_num = 100
 it_num = 100
